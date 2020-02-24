@@ -10,6 +10,7 @@ module.exports = {
   devServer: {
     // eslint-disable-next-line no-undef
     contentBase: path.join(__dirname, `public`),
+    historyApiFallback: true,
     open: false,
     port: 1337,
   },
